@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Learn For Free</string>
+    <string-array name="categorias">
+        <item>Selecciona una categoría</item>
+        <item>C1</item>
+        <item>C2</item>
+        <item>C3</item>
+    </string-array>
+    <string-array name="niveles">
+        <item>Selecciona un nivel</item>
+        <item>Noob</item>
+        <item>Medium</item>
+        <item>Pro</item>
+    </string-array>
+</resources>

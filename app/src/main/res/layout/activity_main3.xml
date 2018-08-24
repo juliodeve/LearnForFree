@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main3Activity">
+
+    <EditText
+        android:id="@+id/txtId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:hint="Codigo del curso:"/>
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del curso:"/>
+
+    <Spinner
+        android:id="@+id/spCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="7dp"
+        android:entries="@array/categorias" />
+
+    <EditText
+        android:id="@+id/txtPrecio"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Precio del curso:"/>
+
+    <EditText
+        android:id="@+id/txtUrl"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Url de descarga:"/>
+
+    <EditText
+        android:id="@+id/txtCreador"
+        android:visibility="gone"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Creador del curso:"/>
+
+    <EditText
+        android:id="@+id/txtUnidades"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Unidades disponibles:"/>
+
+    <Spinner
+        android:id="@+id/spNivel"
+        android:visibility="gone"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/niveles"/>
+
+    <Button
+        android:id="@+id/btnImagen"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seleccionar imagen del curso"/>
+
+    <Button
+        android:id="@+id/btnAgregar"
+        android:visibility="gone"
+        android:layout_marginBottom="7dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Agregar a la tienda"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1dp"
+        android:visibility="gone"
+        android:layout_height="1dp" />
+
+</LinearLayout>
